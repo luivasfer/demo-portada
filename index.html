@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <div class="grid grid-cols-2 gap-2 absolute top-0 left-0 w-screen px-5 pt-5  md:px-20 md:pt-10">
+        <div class="px-5 sm:px-0 flex items-center">
+            <img src="img/logo_ciudadania.png" width="150" alt="">
+        </div>
+        <div class="flex flex-wrap justify-center sm:justify-end md:justify-end items-center">
+            <div class="px-10 sm:px-0">
+                <img src="img/logo_bolivia.png" width="85" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-2  h-0 md:h-screen">
+            <div class="pt-32 md:pt-0 flex items-center">
+                <div class="mx-10 mb-10 mt-5 md:mx-24 md:mt-24">
+                    <div class="text-xl">
+                        <p>Bienvenid@ a Ciudadanía Digital, <strong> una cuenta,</strong> todos los servicios digitales del Estado Plurinacional de Bolivia</p>
+                    </div>
+                    <div class="my-5">
+                        <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded-full">INGRESAR</button>
+                    </div>
+                    <div>
+                        <p>¿Aún no eres Ciudadano Digital?, <a href="#" class="text-blue-700"> Registrate aquí,</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-blue-100 pt-0 md:pt-0 flex items-center pb-6">
+                <div class="mx-0 sm:mx-5 mb-10 mt-5 pd:mx-24 md:mt-24 image-inicio w-5/6 sm:w-5/6">
+                    <div class="bg-white border-red-800 my-4 grid grid-cols-5 px-2 py-4 caja-inicio w-6/6 sm:w-4/6">
+                        <div class="flex justify-center items-center">
+                            <img src="img/user.svg" width="30" alt="">
+                        </div>
+                        <div class="col-span-4">
+                            <h2 class="font-bold text-base">Indentidad digital</h2>
+                            <p class="text-sm">Una sola cuenta para acceder a todos los servicios digitales del estado</p>
+                        </div>
+                    </div>
+                    <div class="bg-white border-red-800 my-4 grid grid-cols-5 px-2 py-4 caja-inicio w-6/6 sm:w-4/6">
+                        <div class="flex justify-center items-center">
+                            <img src="img/file.svg" width="30" alt="">
+                        </div>
+                        <div class="col-span-4">
+                            <h2 class="font-bold">Servicios digitales</h2>
+                            <p class="text-sm">Trámites o servicios que podrás gestionar en linea y de manera sencilla</p>
+                        </div>
+                    </div>
+                    <div class="bg-white border-red-800 my-4 grid grid-cols-5 px-2 py-4 caja-inicio w-6/6 sm:w-4/6">
+                        <div class="flex justify-center items-center">
+                            <img src="img/notification.svg" width="30" alt="">
+                        </div>
+                        <div class="col-span-4">
+                            <h2 class="font-bold">Notificaciones electrónicas</h2>
+                            <p class="text-sm">Mantente informado recibe notificaciones en linea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="flex justify-between fixed bottom-0 left-0 px-5 mt-3 bg-white md:bg-transparent w-screen">
+        <div class="flex justify-center py-2 w-screen md:w-auto border-top md:border-none ">
+            <img src="img/logo_agetic.svg" width="100" alt="">
+        </div>
+        <div class="hidden sm:block"></div>
+        <div class="hidden md:block">
+            <a href="#" class="text-gray-700 text-1xl mx-3 ">Terminos</a>
+            <a href="#" class="text-gray-700 text-1xl mx-3 ">Preguntas frecuentes</a>
+            <a href="#" class="text-gray-700 text-1xl mx-3 ">Contacto</a>
+        </div>
+    </footer>
+</body>
+
+</html>

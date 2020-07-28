@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+.image-inicio {
+    background-image: url('./img/mujer_inicio.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 2em 0 2em 2em;
+    background-size: 40%;
+}
+
+@media only screen and (max-width: 640px) {
+    .image-inicio {
+        background-image: none;
+    }
+}
